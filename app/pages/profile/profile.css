@@ -1,0 +1,64 @@
+ActionBar {
+	background-color: #490094;
+	color: #fff;
+}
+
+	
+.profile {
+	
+}
+
+.profile_con {
+	padding: 30, 30;
+}
+
+.profile__image_wrapper {
+	width: 180;
+	height: 180;
+	border-radius: 360;
+	background-color: red;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.profile__image_wrapper__image {
+	width: 200;
+	height: 199;
+}
+
+.profile__lead_text {
+	font-size: 28;
+	margin-top: 15;
+	color: #490094;
+	horizontal-align: center;
+	font-weight: bold;
+}
+
+.login__sub_text {
+	text-align: center;
+	color: #2F005C;
+}
+
+.icon_wrapper {
+	horizontal-align: right;
+	margin-right: 10;
+	margin-top: 10;
+}
+
+.nav {
+	border-style: solid;
+	border-color: #DCDCDC;
+	border-width: 1;
+	padding-left: 40;
+
+}
+
+.nav__icon {
+	color: #329AF3;
+}
+
+.nav__title {
+	vertical-align: center;
+	color: #480093;
+	font-size: 16;
+}

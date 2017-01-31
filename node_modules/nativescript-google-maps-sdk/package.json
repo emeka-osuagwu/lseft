@@ -1,0 +1,69 @@
+{
+  "name": "nativescript-google-maps-sdk",
+  "version": "1.4.3",
+  "description": "Google Maps SDK plugin for Nativescript",
+  "main": "map-view",
+  "typings": "map-view.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "1.5.1",
+      "ios": "1.5.1"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dapriett/nativescript-google-maps-sdk.git"
+  },
+  "keywords": [
+    "Nativescript",
+    "Google",
+    "Maps",
+    "API",
+    "SDK"
+  ],
+  "author": {
+    "name": "Dan Prietti",
+    "email": "dprietti@gmail.com",
+    "url": "https://github.com/dapriett"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dapriett/nativescript-google-maps-sdk/issues"
+  },
+  "homepage": "https://github.com/dapriett/nativescript-google-maps-sdk#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "tns-core-modules": "^1.5.1",
+    "typescript": "^1.8.0"
+  },
+  "gitHead": "f1b6fd61e6a2fc72a1e95831504ba619e55b1f2c",
+  "_id": "nativescript-google-maps-sdk@1.4.3",
+  "_shasum": "4a46d628af6fc5bb54195b905e4830ce47867171",
+  "_from": "nativescript-google-maps-sdk@>=1.4.3 <2.0.0",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.9.1",
+  "_npmUser": {
+    "name": "dprietti",
+    "email": "npm@prietti.com"
+  },
+  "dist": {
+    "shasum": "4a46d628af6fc5bb54195b905e4830ce47867171",
+    "tarball": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.4.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "dprietti",
+      "email": "npm@prietti.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-google-maps-sdk-1.4.3.tgz_1483067507911_0.18214154848828912"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-google-maps-sdk/-/nativescript-google-maps-sdk-1.4.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

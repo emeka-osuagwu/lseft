@@ -1,0 +1,68 @@
+<ActionBar title="Business">
+  <ActionItem (tap)="onShare()"
+      ios.systemIcon="9" ios.position="left"
+      android.systemIcon="ic_menu_share" 
+      android.position="actionBar"></ActionItem>
+  <ActionItem (tap)="onDelete()"
+      ios.systemIcon="16" ios.position="right"
+      text="delete" android.position="popup"></ActionItem>
+</ActionBar>
+
+
+<StackLayout class="business">
+
+	<GridLayout rows="200, *" colunms="*">
+		
+		<StackLayout class="business__cover_image" row="0" col="0" style="background-image: url('~/assets/images/food.jpg');"></StackLayout>		
+		
+		<StackLayout row="1" col="0" class="info_section__wapper">
+			<GridLayout rows="*, 70" colunms="*">
+				
+				<StackLayout class="info_section" row="0" col="0">
+					<GridLayout columns="*" rows="*,*" class="info_section__business_info">
+						<WrapLayout  class="" row="0" col="0" height="30" backgroundColor="#fff">
+						    <Label text="Villa Var Service" class="info_section__business_info__title"></Label>
+						    <Image src="~/assets/icons/ios7-heart.png" class="info_section__business_info__icon" width="20"></Image>
+						    <Label text="190" class="info_section__business_info__icon" width="30"></Label>
+						    <Image src="~/assets/icons/ios7-heart.png" class="info_section__business_info__icon" width="20"></Image>
+						    <Label text="190" class="info_section__business_info__icon" width="30"></Label>
+						</WrapLayout>
+						<StackLayout class="info_section__business_info__description_wrapper" row="1">
+				    		<Label textWrap="true" class="info_section__business_info__description" text="commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Label>
+						</StackLayout>
+					</GridLayout>
+
+					<StackLayout class="comments__wrapper">
+					    
+					    <Label textWrap="true" class="comments__wrapper__title" text="Comments"></Label>
+						
+						<ScrollView orientation="vertical">
+						<StackLayout>
+							<GridLayout rows="*" columns="50,*" class="comments__wrapper__item">
+								<StackLayout row="0" col="0"  class="comments__wrapper__item__user_icon" style="background-image: url('~/assets/images/11794055_874992065923170_7087418417398847048_o.jpg');"></StackLayout>	
+					    		<Label textWrap="true" row="0" col="1" class="comments__wrapper__item__comment" text="commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Label>
+							</GridLayout>
+						
+							<GridLayout rows="*" columns="50,*" class="comments__wrapper__item">
+								<StackLayout row="0" col="0"  class="comments__wrapper__item__user_icon" style="background-image: url('~/assets/images/11794055_874992065923170_7087418417398847048_o.jpg');"></StackLayout>	
+					    		<Label textWrap="true" row="0" col="1" class="comments__wrapper__item__comment" text="commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Label>
+							</GridLayout>
+						</StackLayout>
+						</ScrollView>
+					</StackLayout>
+
+				</StackLayout>
+
+
+				<WrapLayout  class="comment_wrapper" row="1" col="0">
+					<Image class="comment_wrapper__icon" src="~/assets/icons/person.png"></Image>
+				    <TextField class="comment_wrapper__input" hint="Your comment..." [(ngModel)]="email"></TextField>
+				    <Label text="Send" class="comment_wrapper__button"></Label>
+				</WrapLayout>		
+			</GridLayout>
+		</StackLayout>		
+	</GridLayout>
+
+
+</StackLayout>
+

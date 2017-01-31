@@ -1,0 +1,58 @@
+{
+  "name": "nativescript-drop-down",
+  "version": "1.5.1",
+  "description": "A NativeScript DropDown widget.",
+  "main": "drop-down",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.3.0",
+      "android": "2.3.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterStaev/NativeScript-Drop-Down.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "DropDown",
+    "Spinner",
+    "tangra"
+  ],
+  "author": {
+    "name": "Peter Staev",
+    "email": "peter@tangrasoft.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PeterStaev/NativeScript-Drop-Down/issues"
+  },
+  "homepage": "https://github.com/PeterStaev/NativeScript-Drop-Down#readme",
+  "_id": "nativescript-drop-down@1.5.1",
+  "scripts": {},
+  "_shasum": "774150b8266d968ba95a4358da95a7fe676b3908",
+  "_from": "nativescript-drop-down@>=1.5.1 <2.0.0",
+  "_npmVersion": "3.7.3",
+  "_nodeVersion": "5.8.0",
+  "_npmUser": {
+    "name": "pstaev",
+    "email": "peter@tangrasoft.com"
+  },
+  "dist": {
+    "shasum": "774150b8266d968ba95a4358da95a7fe676b3908",
+    "tarball": "https://registry.npmjs.org/nativescript-drop-down/-/nativescript-drop-down-1.5.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "pstaev",
+      "email": "peter.staev@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-drop-down-1.5.1.tgz_1481546839446_0.034072831738740206"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-drop-down/-/nativescript-drop-down-1.5.1.tgz",
+  "readme": "ERROR: No README data found!"
+}

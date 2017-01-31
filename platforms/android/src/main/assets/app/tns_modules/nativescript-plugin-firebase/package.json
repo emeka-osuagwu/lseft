@@ -1,0 +1,82 @@
+{
+  "name": "nativescript-plugin-firebase",
+  "version": "3.9.2",
+  "description": "Fire. Base. Firebase!",
+  "main": "firebase",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "scripts": {
+    "bundle-installer": "npm install --ignore-scripts && webpack --config scripts/webpack.config.js scripts/installer.js scripts/postinstall.js",
+    "prepublish": "npm run bundle-installer",
+    "postinstall": "node scripts/postinstall.js",
+    "config": "node scripts/postinstall.js config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-plugin-firebase.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Firebase",
+    "Database",
+    "Authentication",
+    "Push Notifications",
+    "Notifications",
+    "Messaging",
+    "Remote Configuration",
+    "Storage",
+    "Crash Reporting",
+    "Analytics",
+    "Facebook",
+    "Google"
+  ],
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
+  },
+  "homepage": "https://github.com/eddyverbruggen/nativescript-plugin-firebase",
+  "devDependencies": {
+    "prompt-lite": "^0.1.1",
+    "xcode": "0.8.0",
+    "webpack": "~2.1.0-beta.25"
+  },
+  "gitHead": "e697aa10b9a2a56e25a61892a4acfea377b2a0de",
+  "_id": "nativescript-plugin-firebase@3.9.2",
+  "_shasum": "2844d891dfb7cd94623afdddc8efe89fb9f7d5ad",
+  "_from": "nativescript-plugin-firebase@>=3.9.2 <4.0.0",
+  "_npmVersion": "4.0.5",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "dist": {
+    "shasum": "2844d891dfb7cd94623afdddc8efe89fb9f7d5ad",
+    "tarball": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.9.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-plugin-firebase-3.9.2.tgz_1484922999304_0.3614221359603107"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-3.9.2.tgz",
+  "readme": "ERROR: No README data found!"
+}

@@ -1,0 +1,48 @@
+<!-- <ActionBar title="">
+	<ActionItem  (tap)="onEdit()" ios.systemIcon="2" android.systemIcon="ic_menu_edit" android.position="left"></ActionItem>
+	<ActionItem  (tap)="onSave()"  ios.systemIcon="3" android.systemIcon="ic_menu_save" ios.position="left"></ActionItem>
+	<ActionItem  (tap)="onCancel()" ios.systemIcon="1" android.systemIcon="ic_menu_close_clear_cancel"></ActionItem>
+</ActionBar>
+ -->
+<ActionBar title="Profile">
+  <ActionItem (tap)="onShare()"
+      ios.systemIcon="9" ios.position="left"
+      android.systemIcon="ic_menu_share" 
+      android.position="actionBar"></ActionItem>
+  <ActionItem (tap)="onDelete()"
+      ios.systemIcon="16" ios.position="right"
+      text="delete" android.position="popup"></ActionItem>
+</ActionBar>
+
+
+<StackLayout class="profile">
+
+	<StackLayout class="profile_con">	
+		<StackLayout class="profile__image_wrapper" style="background-image: url('~/assets/images/profile.jpg');"></StackLayout>
+		<Label text="Business Profile" class="profile__lead_text"></Label>
+		<Label  textWrap="true" class="login__sub_text" text="consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></Label>
+
+		<WrapLayout class="icon_wrapper">
+			<Image src="~/assets/icons/ios7-heart.png" class="info_section__business_info__icon" width="20"></Image>
+			<Label text="190" class="info_section__business_info__icon" width="30"></Label>
+			<Image src="~/assets/icons/ios7-heart.png" class="info_section__business_info__icon" width="20"></Image>
+			<Label text="190" class="info_section__business_info__icon" width="30"></Label>
+		</WrapLayout>
+	</StackLayout>
+
+	<StackLayout marginTop="-20">
+		<GridLayout class="nav" columns="70,*" rows="60">
+			<Image class="nav__icon" src="~/assets/icons/android-social-user.png" col="0" width="40"></Image>
+			<Label text="Manage Business Profile" class="nav__title" col="1"></Label>
+		</GridLayout>
+		<GridLayout class="nav" columns="70,*" rows="60">
+			<Image class="nav__icon" src="~/assets/icons/ios7-search-strong.png" col="0" width="40"></Image>
+			<Label text="Discover Businesses" class="nav__title" col="1"></Label>
+		</GridLayout>
+		<GridLayout class="nav" columns="70,*" rows="60" [nsRouterLink]="['/listing']">
+			<Image class="nav__icon" src="~/assets/icons/ios7-paper.png" col="0" width="40"></Image>
+			<Label text="Business Listing" class="nav__title" col="1"></Label>
+		</GridLayout>
+	</StackLayout>
+
+</StackLayout>
