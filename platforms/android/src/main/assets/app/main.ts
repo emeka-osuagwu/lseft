@@ -10,23 +10,6 @@ import { registerElement } from "nativescript-angular/element-registry";
 
 registerElement("DropDown", () => require("nativescript-drop-down/drop-down").DropDown);
 
-
-import firebase = require("nativescript-plugin-firebase");
-
-
-firebase.init({
-    
-}).then(
-    (instance) =>{
-        console.log("firebase init");
-    },
-    (error) => {
-        console.log("error " + error);
-    }
-)
-
-
-
 @NgModule({
     providers: [
       DBService,

@@ -1,0 +1,29 @@
+
+<ScrollView orientation="vertical">
+    <StackLayout class="auth">
+        
+        <StackLayout class="auth__modal">
+            <Image class="auth__modal__page_logo" src="~/assets/images/LSETFlogo.png"></Image>
+            <Label text="Stay informed, Stay Connected" class="auth__modal__lead_text" [nsRouterLink]="['/register']"></Label>
+
+            <Button text="LOGIN" class="auth__modal__login_button" [nsRouterLink]="['/login']"></Button>
+
+            <GridLayout class="social_line_wrapper" columns="*,40,*" rows="40">
+                <Label text="" class="social_line_wrapper__line" col="0"></Label>
+                <Label text="OR" class="social_line_wrapper__text" col="1"></Label>
+                <Label text="" class="social_line_wrapper__line" col="2"></Label>
+            </GridLayout>
+
+            <Button text="SIGN UP" class="auth__modal__register_button" [nsRouterLink]="['/register']"></Button>
+    
+
+            <GridLayout class="social_button_wrapper" columns="*,*" rows="40">
+                <Button class="social_button_wrapper__button facebook" text="facebook" row="1"></Button>
+                <Button class="social_button_wrapper__button twitter" text="twitter" col="1" row="1"></Button>
+            </GridLayout>
+
+        </StackLayout>
+
+
+    </StackLayout>
+</ScrollView>

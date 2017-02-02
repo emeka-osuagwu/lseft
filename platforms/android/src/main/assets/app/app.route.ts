@@ -8,7 +8,7 @@ import { BusinessComponent } from "./pages/business/business.component";
 
 export const routes = [
 	{ 
-		path: "", redirectTo: "/auth", pathMatch: "full" 
+		path: "", redirectTo: "/map", pathMatch: "full" 
 	},
 	{ 
 		path: "auth", component: AuthComponent 

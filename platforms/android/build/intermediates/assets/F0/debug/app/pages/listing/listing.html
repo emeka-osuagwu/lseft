@@ -1,0 +1,61 @@
+<ActionBar title="Listing">
+  <ActionItem (tap)="onShare()"
+      ios.systemIcon="9" ios.position="left"
+      android.systemIcon="ic_menu_share" 
+      android.position="actionBar"></ActionItem>
+  <ActionItem (tap)="onDelete()"
+      ios.systemIcon="16" ios.position="right"
+      text="delete" android.position="popup"></ActionItem>
+</ActionBar>
+
+
+<StackLayout class="listing">
+
+	<StackLayout class="listing__search_wrapper">
+		<SearchBar classs="listing__search_wrapper__search" hint="Search" [text]="searchPhrase" (submit)="onSubmit(sb.text)"></SearchBar>
+	</StackLayout>
+
+	<GridLayout class="business__list" columns="130,*" rows="100, *">
+		<StackLayout class="business__list__business_image_wrapper" row="0" col="0" rowSpan="2" style="background-image: url('~/assets/images/food.jpg');"></StackLayout>		
+		<StackLayout class="business__list__business_info_wrapper" row="0" col="1">
+			<Label text="Best Pizza in Villa Var Village" class="business__list__business_info_wrapper__lead_text"></Label>
+			<Label textWrap="true" text="consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat" class="business__list__business_info_wrapper__sub_text"></Label>
+		</StackLayout>
+		<StackLayout class="business__list__business_icon_wrapper" row="1" col="1" orientation="horizontal">
+			<Label text="0" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="190" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="0" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="190" class="business__list__business_icon_wrapper__item"></Label>			
+		</StackLayout>
+	</GridLayout>
+
+	<GridLayout class="business__list" columns="130,*" rows="100, *">
+		<StackLayout class="business__list__business_image_wrapper" row="0" col="0" rowSpan="2" style="background-image: url('~/assets/images/food.jpg');"></StackLayout>		
+		<StackLayout class="business__list__business_info_wrapper" row="0" col="1">
+			<Label text="Best Pizza in Villa Var Village" class="business__list__business_info_wrapper__lead_text"></Label>
+			<Label textWrap="true" text="consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat" class="business__list__business_info_wrapper__sub_text"></Label>
+		</StackLayout>
+		<StackLayout class="business__list__business_icon_wrapper" row="1" col="1" orientation="horizontal">
+			<Label text="0" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="190" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="0" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="190" class="business__list__business_icon_wrapper__item"></Label>			
+		</StackLayout>
+	</GridLayout>
+	
+	<GridLayout class="business__list" columns="130,*" rows="100, *">
+		<StackLayout class="business__list__business_image_wrapper" row="0" col="0" rowSpan="2" style="background-image: url('~/assets/images/food.jpg');"></StackLayout>		
+		<StackLayout class="business__list__business_info_wrapper" row="0" col="1">
+			<Label text="Best Pizza in Villa Var Village" class="business__list__business_info_wrapper__lead_text"></Label>
+			<Label textWrap="true" text="consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat" class="business__list__business_info_wrapper__sub_text"></Label>
+		</StackLayout>
+		<StackLayout class="business__list__business_icon_wrapper" row="1" col="1" orientation="horizontal">
+			<Label text="0" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="190" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="0" class="business__list__business_icon_wrapper__item"></Label>			
+			<Label text="190" class="business__list__business_icon_wrapper__item"></Label>			
+		</StackLayout>
+	</GridLayout>
+
+</StackLayout>
+

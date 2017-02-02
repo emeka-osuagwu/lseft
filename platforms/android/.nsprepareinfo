@@ -1,5 +1,7 @@
 {
-	"time": "Tue Jan 31 2017 19:19:39 GMT+0100 (WAT)",
+	"time": "Thu Feb 02 2017 15:51:19 GMT+0100 (WAT)",
 	"bundle": false,
-	"release": false
+	"release": false,
+	"changesRequireBuild": true,
+	"changesRequireBuildTime": "Thu Feb 02 2017 15:51:19 GMT+0100 (WAT)"
 }

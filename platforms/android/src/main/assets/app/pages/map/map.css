@@ -3,6 +3,10 @@ ActionBar {
 	color: #fff;
 }
 
+Label{
+	background-color:red;
+}
+
 .listing {
 	
 }

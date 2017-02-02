@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/emeka/Documents/NS/lseft/platforms/android/build/intermediates/res/merged/F0/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/emeka/Documents/NS/lseft/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/emeka/Documents/NS/lseft/platforms/android/build/intermediates/res/merged/F0/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/emeka/Documents/NS/lseft/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]
