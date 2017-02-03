@@ -11,12 +11,9 @@ import { DBService, UserService }  from "../../services";
 
 export class MapComponent{
  
- 
     // ngOnInit(): void {
     //     firebase.init({})
     //         .then((instance) => console.log('firebase.init successfull!!!!'))
     //         .catch((err) => console.error('firebase.init failed: ' + err));
     // }
-
-
 }

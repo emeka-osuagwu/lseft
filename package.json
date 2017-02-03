@@ -22,7 +22,7 @@
     "nativescript-angular": "1.0.1",
     "nativescript-drop-down": "^1.5.1",
     "reflect-metadata": "^0.1.8",
-    "tns-core-modules": "2.3.0"
+    "tns-core-modules": "^2.5.0"
   },
   "devDependencies": {
     "babel-traverse": "6.16.0",

@@ -28,7 +28,7 @@
             </StackLayout>
         </GridLayout>
 
-        <Button text="Login"  class="login__button" (tap)="login()"></Button>
+        <Button text="Login"  class="login__button" [nsRouterLink]="['/listing']"></Button>
         <Label text="Don't have an Account? Register Now" class="login__button_sub_text" horizontalAlignment="center" [nsRouterLink]="['/register']"></Label>
 	   
        <Image class="login__button_logo" src="~/assets/images/LSETFlogo.png"></Image>
